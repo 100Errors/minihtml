@@ -1,0 +1,15 @@
+.right {
+    float: right;/*
+    display: inline-block;*/
+}
+.nav_btn {
+    background: transparent;
+    border: 0;
+    margin: .5em 0;
+    vertical-align: middle;
+    color: rgba(0,0,0,.7);
+    transition: color 200ms ease;
+}
+.nav_btn:hover {
+    color: #0984e3;
+}
