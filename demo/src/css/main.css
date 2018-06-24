@@ -1,0 +1,65 @@
+@import './info_modal.css';
+@import './nav_bar.css';
+@import './fonts.css';
+@import './utils/file.css';
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}/*
+html, body, .main_container {
+    height: 100%;
+}*/
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#nav_bar {
+    height: 2.5em;
+    max-width: 80em;
+    margin: 0 auto;
+}/*
+#nav_bar > button {
+
+}*/
+.boxes {
+    display: flex;
+    height: 20em;
+}/*
+.boxes > div {
+    flex: 1;
+}*/
+.output_box {
+}
+
+#html_box, #css_box, #js_box {
+    outline: 0;
+    overflow-y: auto;
+    flex: 1;
+    position: relative;
+    border-left: 1px solid #bdc3c7;
+}
+#output_box {
+    border-top: 1px solid #bdc3c7;
+    position: relative;
+}
+#output_box:before {
+
+}
+#no_preview {
+    position: absolute;
+    top: 1.5em;
+    left: 40%;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.7);
+}
+iframe {
+    height: calc(100% - 4px);
+    border: 0;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}

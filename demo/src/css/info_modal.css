@@ -1,0 +1,28 @@
+#info_modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.8);
+    height: 100%;
+    width: 100%;
+    z-index: 3; /* because codeflask has z-index: 2 */
+    font-weight: 300;
+    font-family: 'Raleway';
+}
+#info_modal > div {
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 40%;
+    background: #fff;
+    padding: 1em;
+}
+#info_modal_close {
+    float: right;
+    background: transparent;
+    opacity: .7;
+    border: 0;
+}
+#info_modal_close:hover {
+    opacity: 1;
+}
